@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Pseudoclases CSS</title>
+
+    <link rel="stylesheet" href="css/estilos_selector_pseudo_clase_estado_interaccion.css">
+</head>
+
+<body>
+
+    <h1>Taller de Pseudoclases CSS</h1>
+
+    <!-- HOVER -->
+    <section>
+        <h2>1. Pseudoclase :hover</h2>
+
+        <p>Pase el cursor sobre el botón.</p>
+
+        <button class="btn-hover">
+            Pasar Mouse
+        </button>
+    </section>
+
+    <!-- FOCUS -->
+    <section>
+        <h2>2. Pseudoclase :focus</h2>
+
+        <p>Haga clic en el campo.</p>
+
+        <input type="text" class="campo-focus"
+            placeholder="Escriba su nombre">
+    </section>
+
+    <!-- FOCUS VISIBLE -->
+    <section>
+        <h2>3. Pseudoclase :focus-visible</h2>
+
+        <p>Utilice TAB para observar el efecto.</p>
+
+        <input type="text" class="campo-visible"
+            placeholder="Campo accesible">
+    </section>
+
+    <!-- ACTIVE -->
+    <section>
+        <h2>4. Pseudoclase :active</h2>
+
+        <p>Mantenga presionado el clic.</p>
+
+        <button class="btn-active">
+            Guardar
+        </button>
+    </section>
+
+    <!-- FOCUS WITHIN -->
+    <section>
+        <h2>5. Pseudoclase :focus-within</h2>
+
+        <div class="contenedor">
+
+            <label>Nombre:</label><br><br>
+
+            <input type="text"
+                placeholder="Digite su nombre">
+
+        </div>
+    </section>
+
+    <!-- LINK Y VISITED -->
+    <section>
+        <h2>6. Pseudoclases :link y :visited</h2>
+
+        <p>Visite el enlace.</p>
+
+        <a class="enlace"
+            href="https://www.sena.edu.co"
+            target="_blank">
+            Portal SENA
+        </a>
+    </section>
+
+    <!-- TARGET -->
+    <section>
+        <h2>7. Pseudoclase :target</h2>
+
+        <a href="#respuesta">
+            Mostrar respuesta
+        </a>
+
+        <div id="respuesta">
+            Esta sección utiliza la pseudoclase :target
+        </div>
+    </section>
+
+    <!-- TARJETAS -->
+    <section>
+        <h2>8. Tarjetas con :hover</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <h3>HTML5</h3>
+                <p>Lenguaje de marcado.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>CSS3</h3>
+                <p>Lenguaje de estilos.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>JavaScript</h3>
+                <p>Lenguaje de programación web.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section>
+
+        <h2>9. Formulario de Registro</h2>
+
+        <form>
+
+            <label>Documento:</label><br>
+            <input type="text"><br><br>
+
+            <label>Nombres:</label><br>
+            <input type="text"><br><br>
+
+            <label>Apellidos:</label><br>
+            <input type="text"><br><br>
+
+            <label>Correo:</label><br>
+            <input type="email"><br><br>
+
+            <button class="btn-hover">
+                Registrar
+            </button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
